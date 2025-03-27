@@ -68,7 +68,7 @@ Nela vai conter os templates de issues, pull requests e configuração de CI.
 
 ```bash
 src/
-├── @types/
+├── types/
 ├── assets/
 ├── components/
 │   ├── Button/
