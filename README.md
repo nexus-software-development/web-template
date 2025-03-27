@@ -100,7 +100,7 @@ src/
 
 # Estrutura de Pastas e Propósito
 
-- **📂 `@types/`**:
+- **📂 `types/`**:
 
   - Esta pasta é usada para armazenar definições de tipos TypeScript que são utilizadas em todo o projeto. Ajuda a manter a segurança e a consistência dos tipos.
 
