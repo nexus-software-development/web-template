@@ -1,6 +1,6 @@
 # Template Web Nexus
 
-A intenção desse template é mostrar uma forma de estrutura de projeto mobile hoje na Nexus.
+A intenção desse template é mostrar uma forma de estrutura de projeto web hoje na Nexus.
 
 Lembrando: Esse template não está escrito em pedra, ou seja, pode ser alterado conforme a necessidade do projeto, a ideia é dar um norte de como já sair com o projeto estruturado.
 
@@ -55,21 +55,10 @@ Nela vai conter os templates de issues, pull requests e configuração de CI.
   - Ajuda a padronizar como novas ideias ou melhorias são propostas.
   - Inclui seções para descrição da funcionalidade, justificativa e possíveis soluções.
 
-- **`ISSUE_TEMPLATE/question.md`**:
-
-  - Template para questões ou dúvidas.
-  - Estrutura para que os usuários possam fazer perguntas de forma clara e organizada.
-  - Inclui seções para a pergunta, contexto adicional e links relevantes.
-
 - **`workflows/check-branch-name.yml`**:
 
   - Workflow do GitHub Actions para verificar os nomes das branches.
   - Garante que sigam um padrão específico para consistência.
-
-- **`workflows/check-pr-title.yml`**:
-
-  - Workflow para verificar os títulos dos pull requests.
-  - Assegura que sigam um formato específico para clareza e consistência.
 
 - **`pull_request.yml`**:
   - Contém configurações ou automações relacionadas aos pull requests.
@@ -88,19 +77,21 @@ src/
 ├── constants/
 ├── entities/
 ├── hooks/
-├── navigators/
-│   ├── App/
-│   ├── Auth/
+├── routes/
+│    └── routes.tsx
 ├── screens/
 │   ├── Home/
 │   ├── Auth/
+│     └── index.tsx
+│     └── styles.ts
+│     └── utils.ts
 │     ├── hooks /
 │           └── useAuth.ts
 ├── store/
+│     └── index.ts
 │   ├── config/
-│   ├── slices/
 │   ├── services/
-│   └── types/
+│   ├── slices/
 ├── theme/
 │   ├── styled.d.ts
 ├── utils/

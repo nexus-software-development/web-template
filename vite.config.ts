@@ -16,7 +16,8 @@ export default defineConfig({
       "@store": path.resolve(__dirname, "src/store"),
       "@utils": path.resolve(__dirname, "src/utils"),
       "@layouts": path.resolve(__dirname, "src/layouts"),
-      "@contexts": path.resolve(__dirname, "src/contexts")
+      "@contexts": path.resolve(__dirname, "src/contexts"),
+      "@theme": path.resolve(__dirname, "src/theme")
     }
   }
 });
