@@ -124,7 +124,7 @@ src/
 
   - Esta pasta é para hooks personalizados do React que encapsulam lógica reutilizável. Hooks podem ser usados para gerenciar estado, lidar com efeitos colaterais ou qualquer outra lógica que possa ser compartilhada entre componentes.
 
-- **📂 `navigators/`**:
+- **📂 `routes/`**:
 
   - Contém a configuração de navegação para a aplicação. Isso inclui a configuração de pilhas de navegação, abas ou qualquer outro padrão de navegação usado.
 
