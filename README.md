@@ -141,7 +141,6 @@ src/
   - **📂 `config/`**: Arquivos de configuração para a configuração do store.
   - **📂 `slices/`**: Slices do Redux que definem estado e reducers para diferentes partes da aplicação.
   - **📂 `services/`**: Contém serviços que interagem com APIs ou realizam outras operações assíncronas.
-  - **📂 `types/`**: Definições de tipos específicas para o store, como tipos de ações ou formas de estado.
 
 - **📂 `theme/`**:
 
